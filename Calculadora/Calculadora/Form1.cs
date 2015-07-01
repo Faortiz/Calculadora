@@ -48,7 +48,7 @@ namespace Calculadora
         {
             double divide;
             divide = Convert.ToDouble(txtnumero1.Text) / Convert.ToDouble(txtnumero2.Text);
-            MessageBox.Show("El resultado es esto: " + divide);
+            MessageBox.Show("El resultado tienes eso: " + divide);
         }
 
         private void txtnumero2_TextChanged(object sender, EventArgs e)
